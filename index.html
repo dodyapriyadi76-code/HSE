@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b4a8f">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>ETEL Safety Patrol AI</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="logo.jpg">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<header class="hero">
+  <img src="logo.jpg" alt="ETEL">
+  <div><h1>Safety Patrol × AI</h1><p>Photo → AI analysis → HSE review → corrective action → verification</p></div>
+</header>
+<main id="v"></main>
+<div class="note">AI results are draft support only and must be validated by HSE/supervisor. AI does not approve machinery or areas as safe to operate.</div>
+<footer>© ETEL · Created by <b>Dody Apriyadi</b></footer>
+</div>
+<nav id="tabs">
+  <button data-t="patrol" class="on"><i>📷</i>Patrol</button>
+  <button data-t="list"><i>📋</i>Findings <span id="cnt"></span></button>
+  <button data-t="dash"><i>📊</i>Dashboard</button>
+</nav>
+<script src="app.js"></script>
+</body>
+</html>
